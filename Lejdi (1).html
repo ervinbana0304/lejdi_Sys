@@ -70,7 +70,7 @@ tailwind.config = {
   </ul>
 
   <div class="hidden lg:flex items-center gap-1">
-      <button onclick="setLang('sq')" class="lang-btn px-3 py-1 text-[10px] tracking-widest uppercase border border-transparent rounded-sm text-gray-400 hover:border-gold hover:text-gold transition-all cursor-pointer bg-transparent"><img src="https://flagcdn.com/w20/al.png" alt="Albania">SQ</button>
+      <button onclick="setLang('AL')" class="lang-btn px-3 py-1 text-[10px] tracking-widest uppercase border border-transparent rounded-sm text-gray-400 hover:border-gold hover:text-gold transition-all cursor-pointer bg-transparent"><img src="https://flagcdn.com/w20/al.png" alt="Albania">AL</button>
       <button onclick="setLang('en')" class="lang-btn px-3 py-1 text-[10px] tracking-widest uppercase border border-transparent rounded-sm text-gray-400 hover:border-gold hover:text-gold transition-all cursor-pointer bg-transparent"><img src="https://flagcdn.com/w20/gb.png" alt="English">EN</button>
       <button onclick="setLang('it')" class="lang-btn px-3 py-1 text-[10px] tracking-widest uppercase border border-transparent rounded-sm text-gray-400 hover:border-gold hover:text-gold transition-all cursor-pointer bg-transparent"><img src="https://flagcdn.com/w20/it.png" alt="Italy">IT</button>
   </div>
@@ -89,7 +89,7 @@ tailwind.config = {
   <a href="#" onclick="showPage('news');toggleMobile()"    class="block px-8 py-4 text-sm tracking-widest uppercase text-slate border-b border-mist no-underline hover:text-gold" data-key="nav_news">News</a>
   <a href="#" onclick="showPage('contact');toggleMobile()" class="block px-8 py-4 text-sm tracking-widest uppercase text-slate border-b border-mist no-underline hover:text-gold" data-key="nav_contact">Contact</a>
   <div class="flex gap-2 px-8 py-4">
-      <button onclick="setLang('sq')" class="lang-btn px-3 py-1 text-[10px] tracking-widest uppercase border border-transparent rounded-sm text-gray-400 hover:border-gold hover:text-gold transition-all cursor-pointer bg-transparent"><img src="https://flagcdn.com/w20/al.png" alt="Albania">SQ</button>
+      <button onclick="setLang('AL')" class="lang-btn px-3 py-1 text-[10px] tracking-widest uppercase border border-transparent rounded-sm text-gray-400 hover:border-gold hover:text-gold transition-all cursor-pointer bg-transparent"><img src="https://flagcdn.com/w20/al.png" alt="Albania">AL</button>
       <button onclick="setLang('en')" class="lang-btn px-3 py-1 text-[10px] tracking-widest uppercase border border-transparent rounded-sm text-gray-400 hover:border-gold hover:text-gold transition-all cursor-pointer bg-transparent"><img src="https://flagcdn.com/w20/gb.png" alt="English">EN</button>
       <button onclick="setLang('it')" class="lang-btn px-3 py-1 text-[10px] tracking-widest uppercase border border-transparent rounded-sm text-gray-400 hover:border-gold hover:text-gold transition-all cursor-pointer bg-transparent"><img src="https://flagcdn.com/w20/it.png" alt="Italy">IT</button>
   </div>
@@ -704,7 +704,7 @@ tailwind.config = {
     <script>
         // ──────────── TRANSLATIONS ────────────
         const T = {
-            sq: {
+            AL: {
                 nav_home: "Kryefaqja", nav_about: "Rreth Nesh", nav_news: "Lajme", nav_contact: "Kontakt",
                 hero_eyebrow: "Që nga 2014 · Këshilltarë të Besuar",
                 hero_h1a: "Qartësi në", hero_h1b: "Vendime", hero_h1c: "Financiare",
@@ -920,7 +920,7 @@ tailwind.config = {
             }
         };
 
-        let currentLang = 'sq';
+        let currentLang = 'AL';
 
         function setLang(lang) {
             currentLang = lang;
@@ -939,7 +939,7 @@ tailwind.config = {
         }
 
         document.addEventListener("DOMContentLoaded", () => {
-            setLang('sq'); //  default Albanian
+            setLang('AL'); //  default Albanian
         });
         function showPage(name) {
             document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
