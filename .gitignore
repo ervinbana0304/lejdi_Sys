@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/lejdi_Sys/FileContentIndex/b3d64f1b-8cc3-4419-a87c-412fb160eb48.vsidx
+/.vs/lejdi_Sys/v17/.wsuo
+/.vs/lejdi_Sys/v17/DocumentLayout.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/.vs/lejdi_Sys/config/applicationhost.config
+/.vs/lejdi_Sys/FileContentIndex/6692ed5f-28bf-42ab-9dea-82b69118c39b.vsidx
+*.vsidx
